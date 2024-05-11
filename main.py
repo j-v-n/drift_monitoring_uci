@@ -74,7 +74,7 @@ regression_perfomance_dashboard.calculate(
     reference, None, column_mapping=column_mapping
 )
 
-regression_perfomance_dashboard.show()
+# regression_perfomance_dashboard.show()
 
 regression_perfomance_dashboard.save("./static/index.html")
 
@@ -86,7 +86,7 @@ regression_perfomance_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-regression_perfomance_dashboard.show()
+# regression_perfomance_dashboard.show()
 
 regression_perfomance_dashboard.save("./static/regression_performance_after_week1.html")
 
@@ -97,7 +97,7 @@ target_drift_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-target_drift_dashboard.show()
+# target_drift_dashboard.show()
 
 target_drift_dashboard.save("./static/target_drift_after_week1.html")
 
@@ -109,7 +109,7 @@ regression_perfomance_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-regression_perfomance_dashboard.show()
+# regression_perfomance_dashboard.show()
 
 regression_perfomance_dashboard.save("./static/regression_performance_after_week2.html")
 
@@ -119,7 +119,7 @@ target_drift_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-target_drift_dashboard.show()
+# target_drift_dashboard.show()
 
 target_drift_dashboard.save("./static/target_drift_after_week2.html")
 
@@ -131,7 +131,7 @@ regression_perfomance_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-regression_perfomance_dashboard.show()
+# regression_perfomance_dashboard.show()
 
 regression_perfomance_dashboard.save("./static/regression_performance_after_week3.html")
 
@@ -141,7 +141,7 @@ target_drift_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-target_drift_dashboard.show()
+# target_drift_dashboard.show()
 
 target_drift_dashboard.save("./static/target_drift_after_week3.html")
 
@@ -158,7 +158,7 @@ data_drift_dashboard.calculate(
     column_mapping=column_mapping,
 )
 
-data_drift_dashboard.show()
+# data_drift_dashboard.show()
 
 data_drift_dashboard.save("./static/data_drift_dashboard_after_week1.html")
 
